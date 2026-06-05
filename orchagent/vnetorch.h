@@ -564,7 +564,6 @@ private:
                     const string& monitoring, const int32_t rx_monitor_timer, const int32_t tx_monitor_timer,
                     NextHopGroupKey& nexthops_secondary, const IpPrefix& adv_prefix,
                     const std::map<NextHopKey, IpAddress>& monitors=std::map<NextHopKey, IpAddress>(),
-                    const std::map<IpAddress, pinned_state_t>& monitor_addr_to_pinned_state = {},
                     const uint16_t consistent_hashing_buckets = 0);
 
     template<typename T>

@@ -1306,7 +1306,6 @@ bool VNetRouteOrch::doRouteTask<VNetVrfObject>(const string& vnet, IpPrefix& ipP
                                                NextHopGroupKey& nexthops_secondary,
                                                const IpPrefix& adv_prefix,
                                                const map<NextHopKey, IpAddress>& monitors,
-                                               const map<IpAddress, pinned_state_t>& monitor_addr_to_pinned_state,
                                                const uint16_t consistent_hashing_buckets)
 {
     SWSS_LOG_ENTER();
